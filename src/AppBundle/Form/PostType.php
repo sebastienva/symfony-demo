@@ -63,6 +63,10 @@ class PostType extends AbstractType
             ])
         ;
     }
+    
+    public function getName() {
+        return 'test_deprecated';   
+    }
 
     /**
      * {@inheritdoc}
